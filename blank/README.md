@@ -15,15 +15,21 @@
   </a>
 </p>
 
-## 🚀 How to use
+## 🚀 How to build/run on iOS
 
-- Install packages with `yarn` or `npm install`.
-  - If you have native iOS code run `npx pod-install`
-- Run `yarn start` or `npm run start` to start the bundler.
-- Open the project in a React runtime to try it:
-  - iOS: [Client iOS](https://itunes.apple.com/app/apple-store/id982107779)
-  - Android: [Client Android](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=blankexample)
-  - Web: Any web browser
+1. Open a terminal and navigate to the project folder:
+   ```sh
+   cd blank
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the Expo development server:
+   ```sh
+   npm start
+   ```
+4. When the QR code appears, press `i` in the terminal to launch the iOS simulator, or scan the QR code with the Expo Go app on your iOS device.
 
 ## Running/Modifying Native Code
 
